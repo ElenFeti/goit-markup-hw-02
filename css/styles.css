@@ -1,0 +1,90 @@
+body {
+    background-color: #fff;
+}
+h1 {
+    font-size: 50px;
+}
+
+:root {
+    --navy-blue: #2E2F42;
+    --slate-text:#434455;
+    --base-wait-color: #ffffff;
+    --iris: #4D5AE5;
+    --cornflower:#E7E9FC;
+    --cloud:#f4f4fd;
+    --ocean:#404BBF; }
+
+.logo-link {color: var(--iris);
+
+} 
+
+@media only screen and (min-width: 768px) {
+   {
+    
+  }
+}
+
+.logo-header {
+    
+}
+
+
+
+.text-web {
+    width: 44px;
+    height: 21px;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height, or 117% */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    
+    /* IRIS */
+    
+    color: #4D5AE5;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+ .text-studio {
+    /* Studio */
+
+
+width: 71px;
+height: 21px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height, or 117% */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+/* NAVY BLUE */
+
+color: #2E2F42;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
