@@ -1,90 +1,172 @@
-body {
-    background-color: #fff;
-}
-h1 {
-    font-size: 50px;
-}
-
 :root {
-    --navy-blue: #2E2F42;
-    --slate-text:#434455;
-    --base-wait-color: #ffffff;
-    --iris: #4D5AE5;
-    --cornflower:#E7E9FC;
-    --cloud:#f4f4fd;
-    --ocean:#404BBF; }
+  --navy-blue: #2e2f42;
+  --slate-text: #434455;
+  --base-wait-color: #ffffff;
+  --iris: #4d5ae5;
+  --cornflower: #e7e9fc;
+  --cloud: #f4f4fd;
+  --ocean: #404bbf;
+}
 
-.logo-link {color: var(--iris);
-
-} 
-
-@media only screen and (min-width: 768px) {
-   {
-    
-  }
+body {
+  font-family: "Roboto", sans-serif;
+  color:var(--slate-text);
+  background-color:var(--base-wait-color);
+  
+}
+.header {
+}
+.link:hover
+.link:focus {
+    color: var(--iris);
+}
+.nav {
+}
+.logo {
+  font-family: Raleway, sans-serif;
+      font-weight: 800;
+      font-size: 18px;
+      line-height: 1.17;
+      /* identical to box height, or 117% */
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+      color: var(--iris);
+      text-decoration: none;
 }
 
 .logo-header {
-    
+  color: var(--navy-blue);
+}
+.nav-list {
+}
+.list {
+  list-style: none;
+}
+.nav-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+.nav-link {
+  text-decoration: none;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--ocean);
+}
+.link {
+  text-decoration: none;
+}
+.text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate-text);
+}
+
+.address {
+  font-style: normal;
+} 
+
+
+.contact-link {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate-text);
+}
+.contact-link:hover,
+.contact-link:focus {
+    color:var(--ocean);
+}
+
+.btn {
+  color: var(--base-wait-color);
+  background-color: var(--iris);
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+.btn:hover,
+.btn:focus {
+    background-color: var(--ocean); 
+}
+
+.elem {
+  color:var(--base-wait-color)F;  
 }
 
 
 
-.text-web {
-    width: 44px;
-    height: 21px;
-    
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 21px;
-    /* identical to box height, or 117% */
-    
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    
-    /* IRIS */
-    
-    color: #4D5AE5;
-    
-    
-    /* Inside auto layout */
-    
-    flex: none;
-    order: 0;
-    flex-grow: 0;
+.section-fo {
+background-color:var(--cloud);
 }
 
- .text-studio {
-    /* Studio */
 
-
-width: 71px;
-height: 21px;
-
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 800;
-font-size: 18px;
-line-height: 21px;
-/* identical to box height, or 117% */
-
-display: flex;
-align-items: center;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-
-/* NAVY BLUE */
-
-color: #2E2F42;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 1;
-flex-grow: 0;
+.section-info-name,
+.section-info-elem-name,
+.name-in-four-section {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--navy-blue);
 }
+
+.section-three-name,
+.name-sektion-fo {
+    color:var(--navy-blue);
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: 0.02em;
+
+}
+.footer-site {
+  background-color: var(--navy-blue);
+} 
+
+.footer .logo {
+      font-family:'Raleway', sans-serif;
+      color: var(--iris);
+      padding-left: 156px;
+      padding-top: 50px;
+      padding-bottom: 19px;
+      font-style: normal;
+      font-weight: 800;
+      font-size: 18px;
+      line-height: 1.17;
+      /* identical to box height, or 117% */
+      display: flex;
+      align-items: center;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+}   
+
+.footer .logo:hover,
+.footer .logo:focus {
+  color: var(---base-wait-color);
+}
+
+.span-logo {
+  color: var(--cloud);
+}
+
+.span-logo:hover
+.span-logo:focus {
+  color: var(--iris);
+}
+
+.footer-text {
+  color:var(--cornflower);
+  font-size:16px;
+  line-height:1.17;
+  letter-spacing: 0.02em;      
+}
+
